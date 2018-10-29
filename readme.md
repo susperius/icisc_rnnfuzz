@@ -1,4 +1,4 @@
-# Recurrent neural networks for fuzz testing web browsers
+# Recurrent neural networks for fuzz testing web browsers #
 
 This repository contains the code used for the paper "Recurrent neural networks for fuzz testing web browsers", which was
 accepted as conference for the 21st annual International Conference on Information Security and Cryptology (ICISC). The 
@@ -6,6 +6,7 @@ paper was published in Springer's "Lecture Notes in Computer Science".
 
 ## Usage ##
 ###  Training ###
+
 ```bash
 usage: stacked_rnn.py [-h] [--batch_size BATCH_SIZE] [--epochs EPOCHS]
                       [--learning_rate LEARNING_RATE] [--layers LAYERS]
@@ -36,11 +37,12 @@ optional arguments:
   --split SPLIT         defines which split to use
   --cells {1,2}         sets the cell type to use: 1=LSTM, 2=GRU
 ```
+
 This script trains the specified model. It creates tensorboard log events for validation loss, batch loss and accuracy. 
 A checkpoint is generated for each epoch of training and each time a new lowest validation loss is achieved. In addition,
 a small sample is generated after each epoch of training.
 
-### Sampling ###
+ ### Sampling ###
 
 ```bash
 usage: sampling.py [-h] --chkpt_meta_file CHKPT_FN --cell {1,2} --cell_units
