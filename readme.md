@@ -1,8 +1,7 @@
 # Recurrent neural networks for fuzz testing web browsers #
 
 This repository contains the code used for the paper "Recurrent neural networks for fuzz testing web browsers", which was
-accepted as conference for the 21st annual International Conference on Information Security and Cryptology (ICISC). The 
-paper was published in Springer's "Lecture Notes in Computer Science".
+accepted as conference for the 21st annual International Conference on Information Security and Cryptology (ICISC). 
 
 ## Usage ##
 ###  Training ###
@@ -61,4 +60,4 @@ optional arguments:
   -h, --help            show this help message and exit
 ```
 This script demonstrates how a trained model can be used to generate new HTML-tags. It uses the provided model to sample
-20 from it and prints the results.
+20 lines from it and prints the results.
