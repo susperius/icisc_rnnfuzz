@@ -3,6 +3,15 @@
 This repository contains the code used for the paper "Recurrent neural networks for fuzz testing web browsers", which was
 accepted as conference for the 21st annual International Conference on Information Security and Cryptology (ICISC). 
 
+## Required Packages ##
+* Numpy
+* Tensorflow
+* tqdm
+
+```bash
+pip install numpy tensorflow tqdm
+```
+
 ## Usage ##
 ###  Training ###
 
