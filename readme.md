@@ -1,7 +1,8 @@
 # Recurrent neural networks for fuzz testing web browsers #
 
 This repository contains the code used for the paper "Recurrent neural networks for fuzz testing web browsers", which was
-accepted as conference for the 21st annual International Conference on Information Security and Cryptology (ICISC). 
+accepted as a conference paper for the 21st annual International Conference on Information Security and Cryptology (ICISC) 
+in Seoul, Korea. 
 
 ## Required Packages ##
 * Numpy
